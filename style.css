@@ -1,0 +1,608 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300&display=swap');
+*,
+body,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* The Overlay*/
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.menu {
+    height: 40px;
+    width: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.menu:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+/*Form*/
+
+label {
+    font-family: 'Lato', sans-serif;
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.body {
+    display: block;
+    margin: 0 auto;
+    width: 576px;
+}
+
+form {
+    margin: 0 auto;
+    width: 459px;
+}
+
+input,
+textarea {
+    font-family: 'Lato', sans-serif;
+    width: 439px;
+    height: 27px;
+    background: #efefef;
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 0.9rem;
+    color: #3a3a3a;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#submit {
+    margin-left: 145px;
+    color: white;
+    background-color: black;
+    width: 127px;
+    height: 38px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    opacity: 0.9;
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid #97d6eb;
+}
+
+textarea {
+    height: 213px;
+}
+
+
+/*Contact*/
+
+.contact {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.contact h1 {
+    font-size: 30px;
+}
+
+.contact p {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+
+/*Bio*/
+
+.about {
+    font-family: 'Lato', sans-serif;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.about h1 {
+    padding-left: 100px;
+}
+
+.about p {
+    font-size: 20px;
+    padding-top: 30px;
+    word-wrap: break-word;
+}
+
+.wy {
+    padding-left: 150px;
+}
+
+.profile {
+    width: 560px;
+    float: right;
+    margin-top: -405px;
+}
+
+u {
+    text-decoration: underline;
+}
+
+button {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background-color: black;
+    margin-left: 400px;
+    margin-top: 90px;
+    display: inline-block;
+    padding: 10px 22px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 4px 5px 5px grey;
+}
+
+
+/*Company Name*/
+
+.name p {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    padding-left: 60px;
+    font-weight: 100;
+}
+
+
+/*Copyright*/
+
+.footer {
+    font-family: 'Lato', sans-serif;
+    position: fixed;
+    bottom: 0;
+}
+
+
+/*Links*/
+
+.link {
+    float: right;
+    margin: 0;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+.link:hover {
+    opacity: 0.5;
+}
+
+.facebook {
+    width: 28px;
+}
+
+.twitter {
+    width: 30px;
+    height: 30px;
+}
+
+.insta {
+    width: 20px;
+    height: 27px;
+}
+
+
+/*Gear*/
+
+.gear h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.btn1 {
+    margin-left: 105px;
+    margin-top: -15px;
+}
+
+.btn2 {
+    float: right;
+    margin-top: -40px;
+    margin-right: -289.5px;
+}
+
+.btn3 {
+    margin-left: 105px;
+    margin-top: 10px;
+}
+
+.btn4 {
+    float: right;
+    margin-top: -50px;
+    margin-right: 110px;
+}
+
+.btn5 {
+    margin-top: 10px;
+    margin-left: 45%;
+}
+
+.tripod img {
+    width: 200px;
+    margin-left: 44%;
+}
+
+.lens1 img {
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.lens2 img {
+    width: 150px;
+    height: 200px;
+    float: right;
+    margin-top: -260px;
+    margin-right: 125px;
+}
+
+.gear p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.gorpro img {
+    width: 400px;
+    float: right;
+    margin-top: -310px;
+}
+
+.cam img {
+    width: 400px;
+}
+
+
+/*Images*/
+
+.work-gallery {
+    margin-top: 2%;
+    line-height: 2;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 5px;
+    -moz-column-count: 4;
+    -moz-column-gap: 5px;
+    column-count: 4;
+    column-gap: 5px;
+}
+
+.work-gallery img {
+    width: 100%;
+    height: auto;
+    animation: myImg ease 2.5s;
+    -webkit-animation: myImg ease 2.5s;
+    -moz-animation: myImg ease 2.5s;
+    -o-animation: myImg ease 2.5s;
+    -ms-animation: myImg ease 2.5s;
+}
+
+.myImg img {
+    animation: myImg ease 2.5s;
+    -webkit-animation: myImg ease 2.5s;
+    -moz-animation: myImg ease 2.5s;
+    -o-animation: myImg ease 2.5s;
+    -ms-animation: myImg ease 2.5s;
+}
+
+.myImg:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    opacity: 0.7;
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 400px;
+}
+
+.modal-content {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+/*Animations*/
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+@keyframes myImg {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes myImg {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes myImg {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes myImg {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes myImg {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 1171px) {
+    html {
+        overflow-x: hidden;
+    }
+    .work-gallery {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+    html {
+        overflow-x: hidden;
+    }
+    .work-gallery {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+    .profile {
+        display: none;
+    }
+    button {
+        margin-left: 370px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        overflow-x: hidden;
+    }
+    .work-gallery {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+    .name p {
+        font-size: 45px;
+    }
+    .about h1 {
+        padding-left: 50px;
+    }
+    .profile {
+        display: none;
+    }
+    .wy {
+        padding-left: 0;
+        margin-top: -10px;
+    }
+    button {
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .work-gallery {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    input,
+    textarea {
+        width: 345px;
+    }
+    #submit {
+        width: 100px;
+        margin-left: 120px;
+    }
+    .name p {
+        font-size: 35px;
+    }
+    form {
+        margin-left: 10px;
+        width: 445px;
+    }
+    .overlay-content a {
+        font-size: 30px;
+    }
+    .close {
+        margin-right: -15px;
+        margin-top: -15px;
+    }
+    .about {
+        padding-left: 15px;
+    }
+    .about h1 {
+        padding-left: 0px;
+    }
+    .about p {
+        font-size: 20px;
+        padding-top: 22px;
+    }
+    .wy {
+        padding-left: 0px;
+    }
+    .profile {
+        display: none;
+    }
+    button {
+        margin-left: 105px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .cam img {
+        margin-left: -20px;
+    }
+    .btn1 {
+        margin-left: 85px;
+    }
+    .gorpro img {
+        float: none;
+        margin-top: -1px;
+        margin-left: -25px;
+    }
+    .btn2 {
+        float: none;
+        margin-left: 80px;
+        margin-top: -40px;
+    }
+    .tripod img {
+        margin-left: 70px;
+        padding-top: 10px;
+    }
+    .btn5 {
+        margin-left: 79px;
+    }
+    .lens1 img {
+        margin-top: 50px;
+        margin-left: 70px;
+    }
+    .btn3 {
+        margin-left: 80px;
+        margin-top: 15px;
+    }
+    .lens2 img {
+        margin-top: 50px;
+        margin-left: 95px;
+        float: none;
+    }
+    .btn4 {
+        margin-top: 20px;
+        float: none;
+        margin-left: 79px;
+        margin-right: 0;
+    }
+}
